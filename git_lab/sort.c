@@ -1,3 +1,4 @@
+// функция ьытрой обработки массива
 void quicksort(int arr[], int low, int high) {
     if (low < high) {
         int pivot = arr[high], i = low - 1, j, temp;
